@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor {
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+}
+.enlaces {
+    background-color: #000;
+    height: 50px;
+    width:  1000px;
+    font-size: larger;
+}
+.enlaces a {
+    color: #f2f2f2;
+}
+
+header {
+    width: 100%;
+    background-image: url(fondoheader.jpeg);
+}
+.xakata {
+    width: 180px; height: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li:hover {
+    color: #555;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+main table th, main table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+main table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.redes-sociales img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+footer{
+    background-color: #000;
+}
+footer .lista {
+    list-style-type: none;
+}
+footer .subir {
+    background-color: #b1b1b1;
+    color: blue;
+    font-size: large;
+}
+
+footer .subir::after {
+    content: "▲";
+    margin-left: 5px;
+    background-color: #b1b1b1;
+    color: blue;
+}
+
+#contenido {
+    display: flex;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#curriculum-vitae {
+    width: 100%;
+}
+
+#portfolio {
+    width: 100%;
+}
+
+#curriculum-vitae h2,
+#portfolio h2 {
+    text-align: center;
+}
+
+#curriculum-vitae .nombre,
+#curriculum-vitae .aptitudes,
+#curriculum-vitae .experiencia,
+#curriculum-vitae .idiomas,
+#curriculum-vitae .formacion {
+    margin-bottom: 20px;
+}
+#curriculum-vitae .aptitudes h3,
+#curriculum-vitae .experiencia h3,
+#curriculum-vitae .idiomas h3,
+#curriculum-vitae .formacion h3 {
+    margin-bottom: 20px;
+    color: green;
+}
+
+#curriculum-vitae ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#curriculum-vitae ul li {
+    margin-bottom: 5px;
+}
+form {
+    width: 300px;
+    background-color: #b1b1b1;
+    padding: 30px;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: 4px 10px 30px #000;
+    text-align: center;
+    
+}
+form h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+form .boton{
+    background-color: green;
+    width: 50%;
+    padding: 12px;
+    font-family: 'Titillium Web', sans-serif;
+ }
+ form .boton:hover{
+    background-color: darkgrey;
+    width: 50%;
+    padding: 12px;
+    color: green;
+ }
+ .tipo1 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 3px black;
+        }
+        .gridespacio {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 2px; 
+          }
+          
+          .grida {
+            background-color: #858585; 
+            padding: 10px; 
+            text-align: center;
+          }
+iframe {
+    width: 1000px; 
+  height: 600px;
+}
